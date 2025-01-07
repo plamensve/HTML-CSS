@@ -1,0 +1,79 @@
+.inline-images img{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.list-of-images img {
+    margin-bottom: 10px;
+}
+
+/* Основни стилове за тялото */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* Стилове за заглавието */
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Стилове за details */
+.details {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.details:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Стилове за summary */
+.summary {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #007bff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.summary:hover {
+    color: #0056b3;
+}
+
+/* Стилове за summary-par */
+.summary-par {
+    margin-top: 10px;
+}
+
+.summary-par p {
+    margin: 5px 0;
+    padding-left: 15px;
+    color: #555;
+}
+
+/* Анимация за разгъване */
+.details[open] {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
