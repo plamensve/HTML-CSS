@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Уверете се, че заема цялата ширина на екрана */
+}
+
+/* Основен стил за навигацията */
+nav {
+    background-color: #00263b; /* Тъмен фон */
+    padding: 0; /* Премахнете padding, за да използвате височината ефективно */
+    width: 100%;
+    height: 50px; /* Увеличете височината, ако е необходимо */
+    display: flex; /* Добавете Flexbox към самата навигация */
+    align-items: center; /* Центрира елементите вертикално */
+}
+
+nav ul {
+    list-style: none; /* Премахване на маркерите за списък */
+    padding: 0;
+    display: flex; /* Подрежда елементите в редица */
+    margin-left: auto;
+}
+
+nav ul li {
+    margin: 0 15px; /* Разстояние между елементите */
+}
+
+nav ul li a {
+    text-decoration: none; /* Премахване на подчертаването */
+    color: white; /* Цвят на текста */
+    font-size: 16px; /* Размер на шрифта */
+    font-family: Arial, sans-serif; /* Шрифт */
+    transition: color 0.3s ease; /* Ефект при задържане */
+}
+
+nav ul li a:hover {
+    color: #ff9900; /* Цвят при задържане с мишката */
+}
