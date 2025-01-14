@@ -1,0 +1,64 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: Helvetica, sans-serif;
+}
+
+p, ol, ul {
+    padding-bottom: 1.5rem;
+}
+
+ol, ul {
+    padding-left: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: Georgia, sans-serif;
+}
+
+ table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-bottom: 20px;
+ }
+thead th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+blockquote {
+    margin-left: 100px;
+    padding: 20px 30px; /* Вътрешно разстояние (включително за текста) */
+    padding-left: 40px; /* Допълнително разстояние между текста и border-left */
+    border-left: 4px solid #ccc; /* Лява граница */
+    background-color: #ffffff; /* Фон */
+    font-style: italic;
+    color: #555;
+}
+
+blockquote p {
+    margin: 0;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+blockquote > footer {
+    text-align: right;
+}
