@@ -1,0 +1,18 @@
+div {
+    border: solid 1px black;
+    margin-left: 10px;
+}
+
+
+
+.uniform-margin {
+    margin: 20px;
+}
+
+.non-uniform-padding {
+    margin: 10px 30px 20px 40px;
+}
+
+.negative-margin {
+    margin: -20px;
+}
