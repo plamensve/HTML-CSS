@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+
+ul {
+    padding-left: 40px; /* Добавя отстояние за визуализация на маркерите */
+    margin: 20px 0; /* Отстояние над и под списъка */
+    list-style: disc; /* Възстановява стандартните точки */
+}
+
+li {
+    margin-bottom: 10px; /* Разстояние между елементите на списъка */
+}
+
