@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: solid 3px green;
+    padding: 1em;
+}
+
+div {
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.box-model {
+    border: solid 2px blue;
+}
+
+div {
+    border: solid 1px red;
+}
+
+p {
+    text-align: center;
+}

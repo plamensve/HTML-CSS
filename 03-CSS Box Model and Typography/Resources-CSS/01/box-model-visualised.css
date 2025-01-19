@@ -1,0 +1,46 @@
+div{
+    border: 1px dashed black;
+    padding: 2em;
+    position: relative;
+}
+
+div::before{
+    display: block;
+    position: absolute;
+    top: 0.4em;
+    left: 0.7em
+}
+
+.box-model {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.content {
+    background-color: #64a3e5;
+}
+
+.padding {
+    background-color: #b8ec63;
+    text-align: center;
+}
+
+.padding::before {
+    content: "padding";
+}
+
+.border {
+    background-color: burlywood;
+}
+
+.border::before {
+    content: "border";
+}
+
+.margin {
+    background-color: coral;
+}
+
+.margin::before{
+    content: "margin";
+}

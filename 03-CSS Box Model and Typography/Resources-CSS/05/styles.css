@@ -1,0 +1,23 @@
+html {
+    font: 16px/1.5 Lato, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 10px;
+}
+
+
+.paragraph
+     {
+    margin-left: 10em;
+    margin-top: 5em;
+    min-width: 800px;
+    max-width: 900px;
+  }
+
+
+.paragraph {
+    border: solid 2px rgba(194, 194, 194, 0.3); /* Прозрачен бордър отляво */
+    padding: 30px;
+}

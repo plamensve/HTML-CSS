@@ -1,0 +1,16 @@
+* {
+    padding: 2px;
+    margin: 10px;
+}
+
+body {
+    border: 2px solid green;
+}
+
+section {
+    border: solid 2px black;
+}
+
+div {
+    border: solid 2px blue;
+}
