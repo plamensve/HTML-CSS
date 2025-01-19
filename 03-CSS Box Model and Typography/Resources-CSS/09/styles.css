@@ -5,6 +5,21 @@
 
 html, body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #f4f4f4; /* Задайте желан фон */
+    padding: 20px;
 }
 
 .main-photo img {
@@ -34,4 +49,63 @@ html, body {
     transform: translate(-50%, -50%);
     color: white;
     margin: 0;
+    white-space: nowrap;
 }
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.wrapper .button {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin: 0 10px;
+    overflow: hidden;
+    background: #FFFFFF;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover {
+    width: 120px;
+}
+
+.wrapper .button .icon {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+    background: #b62efa;
+    color: white;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
