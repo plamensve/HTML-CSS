@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 1em;
+}
+
+details {
+    border: solid 2px rgba(194, 194, 194, 0.3); /* Прозрачен бордър отляво */
+    padding: 1em;
+    max-width: 600px;
+}
+
+details:not(:last-child) {
+    border-bottom: none;
+}
+
+summary::marker {
+    content: '⮞'; /* Нов символ за стрелката */
+    color: rgba(0, 0, 0, 0.6); /* Цвят на стрелката */
+    font-size: 1.2em; /* Размер на стрелката */
+    transform: rotate(0deg); /* Първоначална позиция */
+    transition: transform 0.3s ease; /* Анимация */
+}
+
+details[open] summary::marker {
+    content: '⮟'; /* Променен символ, когато е отворено */
+    transform: rotate(0deg); /* Ротация */
+}
