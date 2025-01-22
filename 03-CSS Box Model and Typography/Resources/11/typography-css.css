@@ -62,3 +62,7 @@ blockquote p {
 blockquote > footer {
     text-align: right;
 }
+
+.a-2 {
+    padding-bottom: 0;
+}
