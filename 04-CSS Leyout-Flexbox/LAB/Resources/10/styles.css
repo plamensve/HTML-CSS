@@ -1,0 +1,28 @@
+.flex-container {
+    width: 400px;
+    padding: 1em;
+    border: solid 2px blue;
+    display: flex;
+}
+
+.flex-items {
+    padding: 1em;
+    border: solid 1px red;
+    background-color: beige;
+}
+
+.flex-shrink-zero .flex-items {
+  flex-shrink: 0;
+}
+
+.flex-grow-one {
+  width: 900px;
+}
+
+.flex-grow-one .flex-items {
+  flex-grow: 1;
+}
+
+.flex-basis-5em .flex-items {
+  flex-basis: 5em;
+}
