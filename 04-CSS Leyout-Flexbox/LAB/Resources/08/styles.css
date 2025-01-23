@@ -1,0 +1,26 @@
+.flex-container {
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.flex-items {
+    border: 1px solid red;
+    padding: 1em;
+    background-color: beige;
+}
+
+.flex-grow-0 .flex-items {
+    flex-grow: 0;
+}
+
+.flex-grow-1 .flex-items {
+    flex-grow: 1;
+}
+
+.flex-grow-second-child-only .flex-items:nth-child(2){
+    flex-grow: 1;
+}

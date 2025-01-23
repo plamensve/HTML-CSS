@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Property: Flex shrink</title>
+</head>
+<body>
+    <h1>flex-shrink</h1>
+    <h2>flex-shrink: 1; (default)</h2>
+    <div class="flex-container">
+        <div class="flex-items">1</div>
+        <div class="flex-items">2</div>
+        <div class="flex-items">3</div>
+    </div>
+
+    <h2>flex-shrink: 0;</h2>
+    <div class="flex-container flex-shrink-zero">
+        <div class="flex-items">1</div>
+        <div class="flex-items">2</div>
+        <div class="flex-items">3</div>
+    </div>
+
+    <h2>flex-shrink, shrink 2nd child only</h2>
+    <div class="flex-container flex-shrink-2nd-only">
+        <div class="flex-items">1</div>
+        <div class="flex-items">2</div>
+        <div class="flex-items">3</div>
+    </div>
+</body>
+</html>
