@@ -1,0 +1,83 @@
+.container {
+    max-width: 140ch;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2em;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+hr {
+    max-width: 10ch;
+    margin: 2.5em auto;
+    border: solid 1px #ccc;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+header p,
+footer p {
+    color: #777;
+}
+
+header h2 {
+    padding-bottom: 0.5rem;
+}
+
+header p {
+    font-style: italic;
+    max-width: 50ch;
+    margin: 0 auto;
+}
+
+main {
+    display: flex;
+    gap: 2em;
+    padding: 1em 4em;
+}
+
+main section {
+    padding: 1em;
+}
+
+main section:hover {
+    cursor: pointer;
+    background-color: #f6f6f6;
+    box-shadow: 0 0 0.2em 0 rgb(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+main section p {
+    max-width: 40ch;
+}
+
+footer p {
+    max-width: 90ch;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
