@@ -1,5 +1,5 @@
 .container {
-    max-width: 1500px;
+    max-width: 800px;
     background-color: white;
     padding: 2em;
     border-radius: 0.3em;
@@ -33,20 +33,20 @@ footer {
     border: 1px solid #777;
     border-radius: 0.3em;
     padding: 2em;
-    max-width: 70%;
-    flex-grow: 1;
+    flex-grow: 3;
 }
 
 .sidebar {
     border: 1px solid #777;
     border-radius: 0.3em;
     padding: 2em;
-    max-width: 30%;
     flex-grow: 1;
 }
 
+/* ---------------------------------------------------- */
+
 .container-1 {
-    max-width: 1500px;
+    max-width: 800px;
     margin: 0 auto;
     background-color: white;
     padding: 2em;
@@ -79,8 +79,7 @@ footer {
     border: 1px solid #777;
     border-radius: 0.3em;
     padding: 2em;
-    max-width: 70%;
-    flex-grow: 1;
+    flex-grow: 3;
     order: 2;
 }
 
@@ -88,7 +87,6 @@ footer {
     border: 1px solid #777;
     border-radius: 0.3em;
     padding: 2em;
-    max-width: 30%;
     flex-grow: 1;
 }
 

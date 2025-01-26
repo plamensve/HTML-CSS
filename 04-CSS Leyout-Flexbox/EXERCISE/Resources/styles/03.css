@@ -1,0 +1,52 @@
+.calendar {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto 2em;
+    background-color: white;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    padding: 2em;
+}
+
+.calendar > * {
+    border: solid 1px #999;
+}
+
+.calendar > main {
+    flex-grow: 1;
+}
+
+.calendar > aside {
+    display: flex;
+    flex-direction: column;
+}
+
+aside article {
+    flex-grow: 1;
+    padding: 2em;
+    border: 1px solid #999;
+    text-align: center;
+}
+
+
+
+.row {
+    display: flex;
+}
+
+.row p {
+    border: 1px solid #999;
+    flex-grow: 1;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.label h2 {
+    border: 1px solid #999;
+    flex-grow: 1;
+    padding: 1.5em;
+    text-align: center;
+}
+
+
+
+
