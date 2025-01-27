@@ -1,0 +1,46 @@
+.gallery {
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    justify-content: center;
+}
+
+.gallery li,
+.gallery figure,
+.gallery a {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.gallery li {
+    flex: 0 0 300px;
+    border: 4px solid #000000FF;
+    padding: 1em;
+    background-color: white;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.6);
+    padding-bottom: 4em;
+    position: relative;
+}
+
+.gallery figure {
+    justify-content: center;
+}
+
+.gallery figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #999;
+    padding: 2em 1.5em 1em;
+    font-style: italic;
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
