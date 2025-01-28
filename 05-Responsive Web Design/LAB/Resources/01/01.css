@@ -1,0 +1,59 @@
+body::before {
+    padding: 1em 1.5em;
+    border-radius: 0.3em;
+    background-color: coral;
+    color: #f2f2f2;
+}
+
+
+.container h1 {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+.container h2 {
+    padding-top: 1em;
+}
+
+.container .description-1 {
+    padding-top: 2em;
+}
+
+.all,
+.print,
+.screen {
+    padding-bottom: 1em;
+}
+
+
+@media print {
+    body::before {
+        display: block;
+        content: 'The page is using a print preview or it was printed';
+        background-color: yellow;
+    }
+}
+
+@media screen {
+    body::before {
+        display: block;
+        content: 'The page is being shown on a screen';
+    }
+}
+
+@media all {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+       padding: 2em;
+       font: 14px/1.5 Lato, sans-serif;
+  }
+
+  p {
+    padding-bottom: 1.5em;
+  }
+}

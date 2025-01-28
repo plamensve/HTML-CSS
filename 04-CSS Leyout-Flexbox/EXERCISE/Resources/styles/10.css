@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    min-height: 100dvh;
+}
+
+header,
+main,
+footer {
+    border: 2px solid blue;
+    padding: 2em;
+}
+
+main {
+    flex-grow: 1;
+}
