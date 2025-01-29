@@ -1,0 +1,42 @@
+body {
+    position: relative;
+}
+
+
+body::before {
+        display: block;
+        content: 'The page is using a print preview or it was printed';
+        background-color: coral;
+        color: white;
+    }
+
+@media (hover: none) {
+    body::before {
+        display: block;
+        content: "This device doesn't support hover";
+    }
+}
+
+
+@media (orientation: landscape) {
+    body::before {
+        display: block;
+        content: 'The device is in landscape orientation';
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 600px) {
+    body::before {
+        display: block;
+        content: 'The viewport width is 600px';
+    }
+}
+
+
+@media (min-height: 800px) and (max-height: 800px) {
+    body::before {
+        display: block;
+        content: 'The viewport height is 800px';
+    }
+}
