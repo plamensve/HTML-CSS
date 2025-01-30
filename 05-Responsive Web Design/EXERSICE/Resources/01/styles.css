@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body, html {
+    font: inherit;
+}
+
+
+.container {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+p {
+    border: 1px solid black;
+    padding: 2em;
+    margin-bottom: 1em;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+}
+
+.main {
+    display: flex;
+    gap: 1em;
+}
+
+.main-content {
+    flex-grow: 2;
+}
+
+.sidebar {
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
