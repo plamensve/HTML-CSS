@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body, html {
+    font: 16px/1.5 Verdana, sans-serif;
+    background-color: #ffeeee;
+    font-size: clamp(12px, 1.5vw, 14px);
+}
+
+.header {
+    display: flex;
+    background-color: white;
+    max-width: 1200px;
+    width: 100%;
+    margin: 3em auto 0;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+nav {
+    display: flex;
+    width: 50%;
+    padding: 1em;
+}
+
+h2 {
+    padding: 1em;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    gap: 1em;
+}
+
+nav li {
+    flex: 1;
+    text-align: center;
+    gap: 1em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+    background-color: peachpuff;
+    padding: 0.7em;
+    color: black;
+    border-radius: 0.3em;
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

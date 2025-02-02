@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body, html {
+    font: 16px/1.5 Verdana, sans-serif;
+    background-color: #ffeeee;
+    font-size: clamp(12px, 1.5vw, 14px);
+}
+
+table {
+    background-color: white;
+    margin: 1em auto;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.3);
+    border-collapse: collapse;
+}
+
+
+
+td {
+    padding: 1em;
+    border-top: 1px solid #c5c5c5;
+    color: black;
+    font-weight: bold;
+}
+
+thead td {
+    border-top: none;
+    background-color: #fcc0fc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
