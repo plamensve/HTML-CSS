@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body, html {
+    font: 16px/1.5 Verdana, sans-serif;
+    background-color: #ffcdcd;
+    font-size: clamp(12px, 1.5vw, 14px);
+}
+
+p {
+    padding-bottom: 1em;
+}
+
+.container {
+    padding: 2em;
+    background-color: white;
+    margin: 2em 6em 1em 6em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.3);
+}
+
+header h1 {
+    color: #095403;
+    margin-bottom: 1em;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    background-color: #333333;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+
+@media (max-width: 999px) {
+
+    header h1 {
+        color: #095403;
+        margin-bottom: 0.5em;
+    }
+
+    .navigation {
+        background-color: #333333;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1em;
+    }
+
+    .navigation li {
+        padding: 1em;
+        width: 100%;
+        list-style: none;
+        text-align: center;
+    }
+
+    .navigation li a {
+        color: white;
+        text-decoration: none;
+    }
+
+     .navigation ul li + li {
+        border-top: 1px solid white;
+    }
+
+    main {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    main .ls,
+    main .rs {
+        margin-bottom: 1em;
+    }
+
+    footer {
+      display: flex;
+      background-color: #333333;
+    }
+
+    footer p {
+        color: white;
+        padding: 1em;
+        margin: 0 auto;
+    }
+
+}
+
+@media (min-width: 1000px) {
+
+    .navigation ul {
+        display: flex;
+
+        padding: 0.5em;
+        list-style: none;
+        width: 100%;
+    }
+
+    .navigation li {
+        flex: 1 1 auto;
+        margin-left: 0.5em;
+    }
+
+    .navigation li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 0.5em;
+    }
+
+    main {
+        display: flex;
+        gap: 5em;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    main h2 {
+        margin-bottom: 0.5em;
+    }
+
+    .ls {
+        flex: 3;
+    }
+
+    .rs {
+        flex: 1;
+    }
+
+
+    footer {
+      display: flex;
+      background-color: #333333;
+    }
+
+    footer p {
+        color: white;
+        padding: 1em;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
