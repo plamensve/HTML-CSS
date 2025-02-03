@@ -42,7 +42,6 @@ h2 {
 nav ul {
     display: flex;
     list-style: none;
-    width: 100%;
     padding: 0;
     margin: 0;
     gap: 1em;
@@ -52,21 +51,138 @@ nav li {
     flex: 1;
     text-align: center;
     gap: 1em;
-    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
 }
 
 nav a {
     text-decoration: none;
-    background-color: peachpuff;
+    background-color: #369;
     padding: 0.7em;
-    color: black;
+    color: #fff;
     border-radius: 0.3em;
     display: block;
     width: 100%;
 }
 
+nav ul li {
+    position: relative;
+}
+
+nav ul li:hover > ul {
+    min-width: 17ch;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    gap: 0.5em;
+    background: none;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+}
+
+nav ul ul {
+    display: none;
+}
 
 
+nav ul li:hover > a,
+nav ul li a:hover {
+    background: lightblue;
+    color: black;
+}
+
+nav ul ul li:hover > ul {
+    left: initial;
+    right: 100%;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media (max-width: 800px) {*/
+/*    .header {*/
+/*        display: flex;*/
+/*        background-color: white;*/
+/*        max-width: 1200px;*/
+/*        width: 100%;*/
+/*        margin: 3em auto 0;*/
+/*        align-items: center;*/
+/*        justify-content: center;*/
+/*        border-radius: 0.5em;*/
+/*        box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);*/
+/*    }*/
+
+/*    nav a {*/
+/*        text-decoration: none;*/
+/*        background-color: #369;*/
+/*        padding: 0.7em;*/
+/*        color: #fff;*/
+/*        border-radius: 0.3em;*/
+/*        display: block;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*}*/
+
+
+/*@media (max-width: 600px) {*/
+/*    .header {*/
+/*        display: flex;*/
+/*        background-color: white;*/
+/*        max-width: 1200px;*/
+/*        width: 100%;*/
+/*        margin: 3em auto 0;*/
+/*        align-items: center;*/
+/*        justify-content: center;*/
+/*        border-radius: 0.5em;*/
+/*        box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);*/
+/*    }*/
+
+/*    nav a {*/
+/*        text-decoration: none;*/
+/*        background-color: #369;*/
+/*        padding: 0.7em;*/
+/*        color: #fff;*/
+/*        border-radius: 0.3em;*/
+/*        display: block;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    nav ul {*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        list-style: none;*/
+/*        width: 100%;*/
+/*        padding: 0;*/
+/*        margin: 0;*/
+/*        gap: 1em;*/
+/*    }*/
+
+/*    .header h2 {*/
+/*        display: none;*/
+/*    }*/
+
+/*}*/
 
 
 
