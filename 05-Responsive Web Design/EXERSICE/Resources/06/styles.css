@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body, html {
+    font: 16px/1.5 Verdana, sans-serif;
+    background-color: #ffeeee;
+    font-size: clamp(12px, 1.5vw, 14px);
+}
+
+.ls-top,
+.ls-bottom,
+.aside {
+    background-color: white;
+    padding: 2em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.3);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2em auto 0;
+    display: flex;
+    gap: 1em;
+    align-items: stretch;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    max-width: 43ch;
+    justify-content: flex-start;
+}
+
+.author {
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+.aside .author {
+    margin-top: 1em;
+}
+
+.ls-top,
+.ls-bottom {
+    display: flex;
+    max-width: 66ch;
+}
+
+
+.ls-top .avatar,
+.ls-bottom .avatar {
+    margin-left: 1em;
+    margin-top: 2.5em;
+}
+
+.ls-top-main,
+.ls-bottom-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.ls-top-main::before,
+.ls-bottom-main::before,
+.aside::before {
+    content: '"';
+    font-size: 5em;
+    line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+}
+
+span {
+    content: "";
+    width: 9em; /* Размер на кръгчето */
+    height: 9em;
+    background-color: green; /* Цвят на кръгчето */
+    border-radius: 50%; /* Прави го кръг */
+    border: 3px solid white;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-left: 0.5em; /* Разстояние от текста */
+    overflow: hidden;
+}
+
+.span-aside {
+    content: "";
+    width: 7em; /* Размер на кръгчето */
+    height: 7em;
+    background-color: green; /* Цвят на кръгчето */
+    border-radius: 50%; /* Прави го кръг */
+    border: 3px solid white;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-left: 0.5em; /* Разстояние от текста */
+    margin-top: 1em;
+}
+
+.aside > .author {
+    margin-top: 4.5em;
+}
+
+
