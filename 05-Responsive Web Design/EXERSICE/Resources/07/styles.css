@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body, html {
+    font: 16px/1.5 Verdana, sans-serif;
+    background-color: #ffeeee;
+    font-size: clamp(12px, 1.5vw, 14px);
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    max-width: 1000px;
+    padding: 2em;
+    margin: 5em auto 0;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    justify-content: space-between;
+}
+
+.ls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3em;
+}
+
+.ls p {
+    max-width: 70ch;
+}
+
+
+h2 {
+    color: #afadad;
+}
+
+.btn {
+    display: flex;
+    gap: 1em;
+}
+
+.btn a {
+    text-decoration: none;
+
+}
+
+.btn > p:nth-child(1) > a {
+    background-color: purple;
+    padding: 1em;
+    color: white;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+
+.btn > p:nth-child(2) > a {
+    background-color: #dedede;
+    padding: 1em;
+    color: black;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+
+.aside span > img {
+    border-radius: 1em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.3);
+}
+
+@media (max-width: 779px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aside {
+        order: 1;
+    }
+
+    .ls {
+        order: 2;
+    }
+
+}
+
+
