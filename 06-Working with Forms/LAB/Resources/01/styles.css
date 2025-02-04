@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Monsieur+La+Doulaise&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body, input, textarea, select, option {
+    font-style: inherit;
+}
+
+body, html {
+    font: 16px/1.5 Lato, sans-serif;
+    background-color: white;
+    font-size: clamp(8px, 1.5vw, 11px);
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    background-color: peachpuff;
+    margin: 2em auto;
+    padding: 2em;
+    border: none;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+}
+
+fieldset legend {
+    padding: 0 1em;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+fieldset legend,
+fieldset p {
+    margin-bottom: 1em;
+}
+
+.field label {
+    display: flex;
+    justify-content: center;
+}
+
+.field input {
+    width: 100%;
+}
+
+.field + .field {
+    margin-bottom: 2.5em;
+}
+
+fieldset > input {
+    padding: 0.5em;
+    background: linear-gradient(0deg, rgba(236,96,9,1) 0%, rgba(253,187,45,1) 100%);
+    border: none;
+    color: white;
+}
+
+fieldset > input:hover {
+    background: linear-gradient(0deg, rgba(9,236,230,1) 0%, rgba(45,74,253,1) 100%);
+    cursor: pointer;
+}
+
+.field input:focus {
+    outline: none; /* За премахване на синята рамка по подразбиране */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Лек ефект за подсветка */
+    border: 1px solid rgba(236,96,9,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
