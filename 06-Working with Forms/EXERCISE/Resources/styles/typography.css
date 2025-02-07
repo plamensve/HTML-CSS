@@ -2,10 +2,11 @@ html {
     font: 14px/1.5 Verdana, sans-serif;
 }
 
-body, input, textarea, table {
+body, input, textarea, table, select {
     font: inherit;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-size: 1em;
 }
+
