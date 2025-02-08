@@ -1,0 +1,95 @@
+.container {
+    padding: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+label {
+    font-weight: bold;
+    opacity: 0.7;
+    margin-top: 1em;
+}
+
+.help-text {
+    max-width: 50ch;
+    opacity: 0.5;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    position: relative;
+}
+
+
+.field input {
+    padding: 0.2em;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+.field input:focus {
+    outline: none;
+    border-color: #00ff00;
+}
+
+
+h2 {
+    margin-bottom: 1em;
+    font-size: 1.7em;
+}
+
+button {
+    padding: 1em;
+    margin-top: 2em;
+    font-weight: bold;
+    border: none;
+    font-size: 1.2em;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    border-radius: 1.5em;
+}
+
+button:active {
+    transform: scale(0.95);
+    background-color: darkorange;
+}
+
+legend {
+    margin-left: 1.5em;
+    padding: 1em 1em;
+    font-weight: bold;
+}
+
+fieldset p {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

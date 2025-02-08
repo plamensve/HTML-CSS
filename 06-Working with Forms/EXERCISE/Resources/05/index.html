@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../styles/_styles.css">
+    <link rel="stylesheet" href="adv_forms.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h2>Registration</h2>
+
+            <fieldset>
+                <legend>Login Information</legend>
+                <p class="field">
+                    <label for="email" class="email">Email</label>
+                    <input type="email" name="email" id="email" >
+                    <span class="help-text">example: svetoslavov.dev@gmail.com</span>
+                </p>
+
+                <p class="field">
+                    <label for="password" class="password">Password</label>
+                    <input type="password" name="password" id="password" >
+                    <span class="help-text">minimum 6 characters, letters and numbers, at least 1 special character</span>
+                </p>
+            </fieldset>
+
+             <fieldset>
+                 <legend>Additional Information</legend>
+                 <p class="field">
+                    <label for="date" class="date">Date of Birth</label>
+                    <input type="date" name="date" id="date">
+                    <span class="help-text">example: 08/07/1989</span>
+                </p>
+             </fieldset>
+
+            <button>Login</button>
+        </form>
+    </div>
+</body>
+</html>
