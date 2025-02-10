@@ -335,6 +335,50 @@ header .logo p span {
 }
 
 
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 6em;
+    gap: 8em;
+}
+
+.footer-wrapper div h2 {
+    margin-bottom: 1em;
+}
+
+.col-center {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10em;
+}
+
+.footer-wrapper div p {
+    padding-bottom: 0.5em;
+}
+
+.social-wrapper {
+    display: flex;
+    gap: 1em;
+}
+
+.social-wrapper p {
+    font-size: 1.7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
