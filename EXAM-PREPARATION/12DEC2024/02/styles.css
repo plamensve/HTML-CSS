@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body, html {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: clamp(12px, 1.5vw, 14px);
+    background-color: #ffeeee;
+}
+
+body {
+    border: 2px solid green;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8em 2em;
+    max-width: 1000px;
+    width: 95%;
+    margin: 2em auto;
+    background-color: cyan;
+    border-radius: 0.5em;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8em 2em;
+    max-width: 1000px;
+    width: 95%;
+    height: 30dvh;
+    margin: -1.3em auto;
+    background-color: deeppink;
+    border-radius: 0.5em;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.first-section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section i {
+    font-size: 3em;
+    padding-bottom: 0.5em;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    width: 95%;
+    height: 25dvh;
+    margin: 3em auto;
+    background-color: cyan;
+    border-radius: 0.5em;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 60ch;
+    padding-left: 4em;
+}
+
+.second-section-about-us i {
+    font-size: 2em;
+}
+
+.second-section-about-us p {
+    font-size: 1.8em;
+    margin-left: 5em;
+}
+
+.gallery {
+    max-width: 1000px;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+.gallery img {
+    width: 230px;
+    height: 230px;
+    aspect-ratio: 1 / 1;
+    border-radius: 0.5em;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

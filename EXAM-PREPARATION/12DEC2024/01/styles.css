@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body, html {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: clamp(12px, 1.5vw, 14px);
+    background-color: #ffeeee;
+}
+
+h2 {
+    letter-spacing: 0.3em;
+    opacity: 0.6;
+    padding-bottom: 1.5em;
+}
+
+body {
+    background-color: #eee;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    padding: 2em;
+    justify-content: center;
+    gap: 3em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    flex-grow: 1;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.info {
+    display: flex;
+    gap: 2em;
+    font-size: 1.2em;
+    opacity: 0.5;
+}
+
+.info p:nth-child(2) span {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.top-field,
+.message {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    flex: 1 1 auto;
+}
+
+.top-field p {
+    flex-grow: 1;
+}
+
+.message {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.message p {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.message input {
+    width: 100%;
+}
+
+.message p,
+.top-field p {
+    display: flex;
+    flex-direction: column;
+}
+
+p label {
+    font-size: 1.3em;
+    padding-bottom: 0.5em;
+    opacity: 0.5;
+}
+
+form input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #d7d7d7;
+    flex-grow: 1;
+    background-color: #eee;
+}
+
+
+form button {
+    width: 8em;
+    height: 3.8em;
+    padding: 1em;
+    font-weight: bold;
+    background-color: #606060;
+    color: white;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+
+.social {
+    width: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.i-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.5em;
+}
+
+.i-wrapper p {
+    margin: 0;
+}
+
+.i-wrapper i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7em;
+    border: 2px solid #ccc6c6;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    width: 3.3em;
+    height: 2.5em;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
