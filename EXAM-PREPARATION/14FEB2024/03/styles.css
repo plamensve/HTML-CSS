@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body, html {
+    font-family: "PT Serif", serif;
+    font-size: clamp(12px, 1.5vw, 14px);
+    background-color: #ffeeee;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    height: 60dvh;
+    align-items: flex-start;
+    padding: 1.5em 3em;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.front-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 15%;
+    left: 7%;
+}
+
+.front-text p {
+    max-width: 65ch;
+    color: white;
+    line-height: 1.7em;
+    margin-top: 1em;
+}
+
+.front-text h1 {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    gap: 2.5em;
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    background-color: white;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    padding: 3em 10em;
+    gap: 5em;
+}
+
+.info h2 {
+    font-size: 2.8em;
+    padding-bottom: 0.5em;
+}
+
+.info p {
+    max-width: 65ch;
+    padding-bottom: 2em;
+}
+
+.btn-more-information a {
+    text-decoration: none;
+    font-size: 0.8em;
+    border: 2px solid #b0825c;
+    color: #b0825c;
+    padding: 0.5em 2em;
+}
+
+.sponsors,
+.partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5em;
+}
+
+.sponsors-h2,
+.partners-h2 {
+    color: #b0825c;
+    font-size: 3.8em;
+    font-weight: normal;
+}
+
+.sponsors p {
+    margin-top: 2em;
+    max-width: 140ch;
+    text-align: center;
+}
+
+.partners-p {
+    padding-bottom: 4em;
+}
+
+section.img {
+    display: flex;
+    justify-content: center;
+}
+
+.sponsors-avatar {
+    display: flex;
+    gap: 3em;
+    margin-right: 4em;
+    position: relative;
+}
+
+.sponsors-avatar img {
+    width: 100px;
+    height: 100px;
+    margin-top: 5em;
+    margin-bottom: 3em;
+    z-index: 2;
+}
+
+.avatar-1::before {
+    content: "";
+    width: 140px;
+    height: 140px;
+    background-color: #dddddd;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 23%;
+    left: 6%;
+    z-index: 1;
+}
+.avatar-2::before {
+    content: "";
+    width: 140px;
+    height: 140px;
+    background-color: #dddddd;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 23%;
+    left: 64%;
+    z-index: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #171720;
+    padding: 5em 10em;
+}
+
+
+footer h2 {
+    color: white;
+    margin-bottom: 1.5em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    line-height: 3em;
+}
+
+.footer-line {
+    border: none; /* Премахва стандартния стил */
+    height: 1px; /* Дебелина на линията */
+    background-color: #3a3a41; /* Цвят на линията */
+}
+
+
+.copy-rights {
+    background-color: #171720;
+}
+
+.copy-rights p {
+    color: white;
+    padding: 1em 22.5em;
+}
+
+@media (hover: none) {
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

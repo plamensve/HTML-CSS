@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body, html {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: clamp(12px, 1.5vw, 14px);
+    background-color: #ffeeee;
+}
+
+h1 {
+    color: white;
+    padding-bottom: 0.5em;
+}
+
+h2 {
+    padding-bottom: 0.5em;
+}
+
+p#left-side-p {
+    text-align: left;
+    text-indent: 30px;
+}
+
+
+.right-side img {
+    height: 250px;
+}
+
+.container {
+    display: flex;
+    gap: 2em;
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    margin: 10em auto 0;
+    padding: 2em;
+    border: 2px solid black;
+    border-radius: 1em;
+    background-color: #1881b6;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 7em;
+    margin-top: 2em;
+}
+
+.btn-wrapper p a {
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.btn-wrapper p#btn-wrapper-1,
+.btn-wrapper p#btn-wrapper-2 {
+    padding: 0.2em 1em;
+    border: 1px solid black;
+    border-radius: 0.3em;
+}
+
+.btn-wrapper p#btn-wrapper-1 {
+    background-color: #b6416d;
+}
+
+.btn-wrapper p#btn-wrapper-1 a {
+    display: block;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-wrapper p#btn-wrapper-2 a {
+    display: block;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+}
+
+
