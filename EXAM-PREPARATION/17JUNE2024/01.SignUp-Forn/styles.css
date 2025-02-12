@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body, html {
+    font-family: "Kode Mono", sans-serif;
+    font-size: clamp(12px, 1.5vw, 16px);
+    background-color: #ffeeee;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    color: white;
+}
+
+input::placeholder {
+    color: #a0b3b0; /* Промяна на цвета */
+    opacity: 1; /* Увери се, че не е прозрачен */
+    font-size: 1.9em;
+    font-family: "Kode Mono", sans-serif;
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    background-color: #24333c;
+    padding: 2em;
+    margin: 100px auto 0;
+    border-radius: 0.4em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.5);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-top {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 1em 0 3em 0;
+    font-size: 1.5em;
+}
+
+#log-in:hover {
+    background-color: #5ea489;
+}
+
+.btn-top p a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 0.6em 0;
+    text-align: center;
+}
+
+.btn-top p:first-child {
+    background-color: #1ab188;
+    width: 50%;
+}
+
+.btn-top p:last-child {
+    background-color: #435359;
+    width: 50%;
+}
+
+.form-title {
+    padding-bottom: 2em;
+    font-size: 1.6em;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    gap: 2.8em;
+    flex-direction: column;
+
+    flex: 1 1 auto;
+}
+
+.field {
+    display: flex;
+    gap: 1em;
+    position: relative;
+}
+
+.field span#star-1 {
+    position: absolute;
+    font-size: 1.8em;
+    color: #1ab188;
+    left: 30%;
+    top: 12%;
+}
+
+.field span#star-2 {
+    position: absolute;
+    font-size: 1.8em;
+    color: #1ab188;
+    left: 79%;
+    top: 12%;
+}
+
+.field span#star-3 {
+    position: absolute;
+    font-size: 1.8em;
+    color: #1ab188;
+    left: 39%;
+    top: 12%;
+}
+
+.field span#star-4 {
+    position: absolute;
+    font-size: 1.8em;
+    color: #1ab188;
+    left: 42%;
+    top: 12%;
+}
+
+.field input:not(:placeholder-shown) + span {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.field input {
+    border: 1px solid #a0b3b0;
+    background-color: #24333c;
+    width: 100%;
+    padding-top: 1.5em;
+    padding-left: 0.7em;
+    padding-bottom: 0.4em;
+    color: white;
+}
+
+.field input::after {
+    content: "*";
+    color: red;
+}
+
+form button {
+    padding: 0.5em 0;
+    font-size: 1.8em;
+    background-color: #1ab188;
+    color: white;
+    letter-spacing: 4px;
+    font-family: "Kode Mono", sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
