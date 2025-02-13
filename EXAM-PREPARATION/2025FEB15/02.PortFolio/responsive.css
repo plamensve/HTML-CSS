@@ -1,1 +1,54 @@
+@media (max-width: 600px) {
+   nav ul {
+       display: none;
+   }
 
+    .checkbtn {
+        display: initial;
+        order: 1;
+    }
+
+    .site-header > i, h1 {
+        text-align: initial;
+        position: static;
+        bottom: initial;
+    }
+
+    .site-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.about {
+        display: flex;
+    }
+
+    section.about .about-header,
+    section.about .about-text {
+        flex: 1 1 50%;
+    }
+
+    section.about .about-header {
+        display: flex;
+        width: auto;
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section.about .about-text {
+        display: block;
+        width: auto;
+        margin: 0;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
