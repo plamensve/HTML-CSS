@@ -1,0 +1,119 @@
+@media (max-width: 600px) {
+    .home-left {
+    display: none;
+}
+
+.home-right {
+    display: none;
+}
+
+input.home-textinput {
+    display: none;
+}
+
+.home-navbar1 {
+    justify-content: flex-start;
+}
+
+.navbar-logo-title {
+    margin-left: 0;
+}
+
+.home-hero1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-container03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category-card-image {
+    width: 250px;
+    height: 250px;
+}
+
+.home-full-width-banner {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-left4 {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.home-image6 {
+    width: 100%;
+}
+
+.home-container08 {
+    display: flex;
+    width: 100%;
+}
+
+.blog-post-card-blog-post-card {
+    max-width: 600px;
+}
+
+.home-footer1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-links-container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5em;
+}
+
+.home-container09 {
+    order: 2;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
