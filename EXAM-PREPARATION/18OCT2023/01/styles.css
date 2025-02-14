@@ -1,0 +1,131 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body, html {
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(12px, 1.5vw, 16px);
+    background-color: #eee;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    color: #000A1B;
+}
+
+.title h1 span {
+    color: #327DC6;
+}
+
+.title h3 {
+    opacity: 0.6;
+}
+
+.container {
+    max-width: 1050px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.card-wrapper {
+    display: flex;
+    gap: 1em;
+    flex: 0 0 auto;
+    align-items: stretch;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    background-color: #819DAF;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card-1 img,
+.card-2 img,
+.card-3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+    object-fit: cover;
+}
+
+.avatar-info {
+    padding: 0 1em 1em 1em;
+}
+
+.avatar-info h2 {
+    padding: 0.7em 0;
+}
+
+button {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    padding: 0.5em 1.5em;
+    width: fit-content;
+    display: block;
+    border-radius: 2em;
+    background-color: #327DC4;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
