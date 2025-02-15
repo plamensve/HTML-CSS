@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body, html {
+    font-family: "IBM Plex Mono", sans-serif;
+    font-size: clamp(12px, 1.5vw, 14px);
+}
+
+input, textarea, a {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F6F6;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-color: #000000;
+    border-radius: 1em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.3);
+}
+
+nav ul {
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+    align-items: center;
+    margin: 0 75px;
+    padding: 1.5em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: #1B1B1B;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #9C9C9C;
+    font-size: 1.1em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    margin-top: 2em;
+}
+
+.socials {
+    display: flex;
+    gap: 1.5em;
+}
+
+main .left-side h1 {
+    margin-bottom: 0.8em;
+    font-size: 3em;
+}
+
+main .left-side p {
+    max-width: 55ch;
+    opacity: 0.5;
+    font-size: 1em;
+}
+
+main .left-side button {
+    padding: 0.8em 4em;
+    border-radius: 0.4em;
+    background-color: #3F8E00;
+    color: white;
+}
+
+main .avatar img {
+    width: 350px;
+    height: 350px;
+}
+
+main .avatar {
+    overflow: hidden;
+}
+main .avatar img {
+    border-radius: 50% 50%;
+}
+
+footer .partners {
+    display: flex;
+    gap: 5em;
+    margin-left: 160px;
+    margin-bottom: 40px;
+}
+
+footer h3 {
+    margin-left: 160px;
+    font-size: 0.9em;
+}
+
+footer .partners img {
+    width: 130px;
+    height: 50px;
+    object-fit: contain;
+    border: 1px solid #898989;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
